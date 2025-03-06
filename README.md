@@ -1,0 +1,2 @@
+# copyXpaste
+chrome web-extension
