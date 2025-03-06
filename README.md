@@ -1,2 +1,2 @@
-# copyXpaste
-chrome web-extension
+# copyxpaste
+ Web Extension + Software

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>copyXpaste Dashboard</title>
+    <link rel="stylesheet" type="text/css" href="popup.css">
+</head>
+<body>
+    <div class="sidebar">
+        <h3>Recently Copied</h3>
+        <ul id="recentClipboard"></ul>
+    </div>
+    
+    <div class="main-content">
+        <h1 class="title">copyXpaste Dashboard</h1>
+
+        <div class="input-container">
+            <input type="text" id="folderName" placeholder="Create a folder">
+            <button id="createFolder">+</button>
+        </div>
+
+        <div id="folders"></div>
+
+        <div class="input-container">
+            <input type="text" id="pageName" placeholder="Create a page">
+            <button id="createPage">+</button>
+        </div>
+
+        <ul id="clipboard-list"></ul>
+
+        <button id="clearClipboard">Clear Clipboard</button>
+
+        <div id="pageEditor">
+            <h2 id="pageTitle"></h2>
+            <textarea id="pageContent"></textarea>
+        </div>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
